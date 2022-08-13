@@ -6,3 +6,10 @@ type Loader interface {
 	// Adds the file at the given path to the card
 	AddSample(path string) (err error, full bool)
 }
+
+// func GetLoader(name string) (Loader, error) {
+// 	select name {
+// 	case "tiptop":
+// 		return
+// 	}
+// }
